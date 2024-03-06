@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: black;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color:yellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.logo img{
+    height: 60px;
+    width: 80px;
+    border-radius: 100%;
+}
+.navBar a{
+        gap: 100px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: 20px;
+    }
+    .navBar a:hover{
+        color: rgb(252, 0, 0);
+    
+    }
+
+h1{
+    color: yellow;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+footer{
+    width: 100%;
+    margin-top: 90%;
+    background-color: rgb(255, 247, 5);
+    list-style: none;
+}
+footer a{
+    color: rgb(255, 247, 5);
+    list-style: none;
+    text-decoration: none;
+}
+footer img{
+    height: 70px;
+    width: 70px;
+}
+.card img{
+    width: 350px;
+    height: 350px;
+}
+.general{
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.conteiner{
+    color: yellow;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    }
+    .container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px yellow;
+    margin: 20px;
+    text-align: center;
+    
+    }
+    .container .card img {
+    width: 330px;
+    height: 220px;
+    }
+    
+    .card h4{
+    font-weight: 500;
+    text-decoration: none;
+    color: yellow;
+    }
+    .card p{
+        font-weight: 500;
+    text-decoration: none;
+    color: yellow;
+    }
+.container-boton {
+        position: fixed;
+        z-index: 999;
+        bottom: 20px;
+        right: 20px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+}
+.boton {
+    transition: ease 1s;
+    }
+main:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(246, 246, 246, 0.85);
+        }
+        100% {
+        box-shadow: 0 0 0 25px rgba(248, 207, 4, 0);
+        }
+}
